@@ -9,23 +9,25 @@ div{
     margin: 25px 0px 0px 25px;
     border: 1px solid rgb(213 202 202);
 }
-button{
+a{
 	background-color:rgb(9,111,254);
     color: white;
 	border:none;
 	padding: 8px 11px;
     border-radius: 4px;
 	position:relative;
+	text-decoration:none;
 }
-button::after {
+a::after {
     content: '99+';
-    height: 16px;
-    width: 31px;
+    height: 17px;
+    width: 30px;
     top: -8px;
     right: -15px;
     color: white;
-    padding: 2px 0px 0px 1px;
-    border-radius:10px;
+    padding: 2px 0px 0px 4px;
+    border-radius: 10px;
     background-color: rgb(220,55,70);
     position: absolute;
+	font-family: monospace;
 }
